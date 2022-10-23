@@ -1,4 +1,4 @@
-body{
+body {
     background-color: #303030;
     display: flex;
     justify-content: center;
@@ -6,7 +6,7 @@ body{
     font-size: 25px;
 }
 
-main{
+main {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -16,22 +16,22 @@ main{
     background-color: #909090;
 }
 
-.screen{
+.screen {
     width: 450px;
     height: 80px;
     border: 1px solid #fff;
     margin: 25px 0px;
     background-color: #303030;
-    color:#fff;
+    color: #fff;
     text-align: end;
-    
-    
-    p{
+
+
+    p {
         margin-right: 20px;
     }
 }
 
-.keyboard{
+.keyboard {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 1fr);
@@ -40,18 +40,18 @@ main{
     gap: 7px;
 
 
-    &__button{
+    &__button {
         border: 1px solid #fff;
         background-color: #808080;
         text-align: center;
         color: #fff;
-        
-        cursor:pointer;
 
-        &:hover{
+        cursor: pointer;
+
+        &:hover {
             background-color: #303030;
         }
     }
 
-   
+
 }
