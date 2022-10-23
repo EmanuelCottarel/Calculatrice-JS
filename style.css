@@ -1,0 +1,49 @@
+body {
+  background-color: #303030;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  height: 600px;
+  border: 1px solid #fff;
+  background-color: #909090;
+}
+
+.screen {
+  width: 450px;
+  height: 80px;
+  border: 1px solid #fff;
+  margin: 25px 0px;
+  background-color: #303030;
+  color: #fff;
+  text-align: end;
+}
+.screen p {
+  margin-right: 20px;
+}
+
+.keyboard {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  width: 450px;
+  height: auto;
+  gap: 7px;
+}
+.keyboard__button {
+  border: 1px solid #fff;
+  background-color: #808080;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+.keyboard__button:hover {
+  background-color: #303030;
+}/*# sourceMappingURL=style.css.map */
